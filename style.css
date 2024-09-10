@@ -11,7 +11,7 @@ body {
     margin: 0px 0px 8px 0px;
     color: whitesmoke;
     font-family: Rowdies, sans-serif;
-    box-shadow: 4px 4px 5px 1px whitesmoke;
+    /* box-shadow: 4px 4px 5px 1px whitesmoke; */
     width: 20%;
 
 }
@@ -23,24 +23,59 @@ ul {
 
 body > header {
     background-color: #8ACF00;
+    /*flexboxes help with aligning and stuff*/
+    display: flex;
+    height: 7.5vh;
+    align-items: center;
+    justify-content: space-around;
 }
 
 body > header > nav > ul {
     list-style: none;
+    display: flex;
 }
 
 .navbutton {
     color: whitesmoke;
     text-decoration: none;
+    padding: 8px;
+    margin: 16px;
+    border: 1px solid whitesmoke;
+    border-radius: 15%;
 }
 
-body > main > article {
-    width: 70%;
+body > main article {
+    width: 80%;
     margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 80%
 }
 
 body > footer {
     background-color: #8ACF00;
+    display: flex;
+    height: 15vh;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 form {
