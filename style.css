@@ -1,0 +1,87 @@
+body {
+    background-color: #BADA55;
+    /* font-family gives you a list of what fonts to prioritise */
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+.logo {
+    padding: 8px;
+    margin: 0px 0px 8px 0px;
+    color: whitesmoke;
+    font-family: Rowdies, sans-serif;
+    box-shadow: 4px 4px 5px 1px whitesmoke;
+    width: 20%;
+
+}
+
+ul {
+    margin: 0px;
+}
+
+
+body > header {
+    background-color: #8ACF00;
+}
+
+body > header > nav > ul {
+    list-style: none;
+}
+
+.navbutton {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+body > footer {
+    background-color: #8ACF00;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+
+/*
+class selection > html: class="name-of-class", css: .name-of-class
+used when you want to select multiple things
+
+id selection > same as class but with # instead of . in the css
+used for just one thing, should be unique
+
+universal selector is just * in the css and selects absolutely everything
+should probably avoid bc what's the point when you can select for the body tag
+
+type selection and child selection are self explanatory
+
+look into pseudo classes and pseudo elements if you like
+there are specific preset ones for specific kinds of things, like visited links etc
+
+look into box model if having problems with padding and borders and margin etc
+margins can overlap, padding cannot
+
+if you want to give specific things widths and heights look into display types
+
+sizing types -
+pixels > absolute, will be similar on most devices but can vary
+EM/REM > child font size is relative to that of parent
+VW/VH > viewport width/height, sizes are relative to size of screen (recommended)
+*/
